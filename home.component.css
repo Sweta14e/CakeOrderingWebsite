@@ -1,0 +1,97 @@
+.carousel-item{
+    height:600px;
+    background-color: white;
+    overflow: hidden;
+    /* padding: 90px; */
+    font-size: 7ch;
+}
+.heading{
+    text-align: center;
+    font-style: inherit;
+}
+.head2{
+    text-align: center;
+}
+.carousel-caption{
+    color: rgb(18, 205, 65);
+}
+
+.parallaxone{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F1542062283%2Fchocolate-and-cream-layer-cake-1812-cover.jpg%3Fitok%3DR_xDiShk);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.parallaxone h2{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 430px;
+    height: 100px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parallaxtwo{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://preppykitchen.com/wp-content/uploads/2019/06/Chocolate-cake-recipe-1200a.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.parallaxtwo h2{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+}
+.parallaxthree{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://recipesblob.oetker.com/files/1ef737cf5ed6496f9990d899dbb26353/46b664a502ce4ebdb241e6667ce789b7/1272x764/pinata-rainbow-cake.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.parallaxthree h2{
+    position: relative;
+    left: 400px;
+    top: 300px;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+}
+.para{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    padding: 50px;
+    
+    /* height: 50px;  */
+
+}
+.card-body{
+    text-align: center;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+}
