@@ -53,24 +53,28 @@
         <img src="https://img.freepik.com/free-vector/sweet-pastries-chalkboard_1284-3606.jpg?w=996&t=st=1664637435~exp=1664638035~hmac=1b8ae0c11f11c2b5cb14ee91fe327edbebe11a1921140526d840ee89636aa602 " class="w-100 " />    </div>
     <div class="mask ">
     <div class="flex flex-col text-center w-full mb-12">
-        <div class="heading">
+        <!-- <div class="heading">
             <p style=" margin-top:40px">Customize Your Cake</p>
-        </div><br><br><br><br><br><br><br><br><br><br>
+        </div><br><br><br> -->
         <div class="container">
+            <div class="heading">
+                <strong>Customize Your Cake</strong>
+            </div><br>
             <div class="content">
+                
                 <p>Appreciate your choice. We will provide </p>
                 <p>you the customization of cake at the best !!</p>
             </div><br><br>
-            <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Proceed to your customization</h2><br>
-            <h4>Choose type of cake</h4>
+            <!-- <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Proceed to your customization</h2><br> -->
+            <h4>Type of cake</h4>
             <select class="custom-select">
-                <option selected>Open this select menu</option>
+                <option selected>Select</option>
                 <option value="1">Cream</option>
                 <option value="2">Fondant</option>
             </select>
-            <h4>Choose weight of cake</h4>
+            <h4>Weight of cake</h4>
             <select class="custom-select">
-                <option selected>Open this select menu</option>
+                <option selected>Select</option>
                 <option value="1">250 gm</option>
                 <option value="2">500 gm</option>
                 <option value="3">1 kg</option>
@@ -79,17 +83,17 @@
                 <option value="6">3 kg</option>
                 <option value="7">5 kg</option>
             </select>
-            <h4>Choose shape of cake</h4>
+            <h4>Shape of cake</h4>
             <select class="custom-select">
-                <option selected>Open this select menu</option>
+                <option selected>Select</option>
                 <option value="1">Circle</option>
                 <option value="2">Square</option>
                 <option value="3">Rectangle</option>
                 <option value="4">Heart</option>
             </select>
-            <h4>Choose flavours for cake</h4>
+            <h4>Flavours </h4>
             <select class="custom-select">
-                <option selected>Open this select menu</option>
+                <option selected>Select</option>
                 <option value="1">Chocolate</option>
                 <option value="2">Strawberry</option>
                 <option value="3">Pineapple</option>
@@ -99,22 +103,25 @@
                 <option value="7">Blueberry</option>
                 <option value="8">Fruit Cake</option>
             </select>
-            <h4>Choose occasions</h4>
+            <h4>Occasions</h4>
             <select class="custom-select">
-                <option selected>Open this select menu</option>
+                <option selected>Select</option>
                 <option value="1">Happy Birthday</option>
                 <option value="2">Happy Anniversary</option>
             </select>
-            <h4>Choose toppers for cake</h4>
+            <h4>Cake toppers </h4>
             <select class="custom-select">
-                <option selected>Open this select menu</option>
+                <option selected>Select</option>
                 <option value="1">Happy Birthday</option>
                 <option value="2">Happy Anniversary</option>
                 <option value="3">Best Brother</option>
                 <option value="4">Best Sister</option>
             </select>
-            <h4>Upload image to print on the cake or image of any design as required</h4>
+            <h4>Upload image</h4>
             <div class="custom-file">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Upload</span>
+                  </div>
                 <input type="file" class="custom-file-input" id="customFile">
                 
             </div>
@@ -125,3 +132,5 @@
     </div>
     </div>
 </div>
+
+<app-footer></app-footer>
